@@ -1,4 +1,4 @@
-## Princípio da Responsabilidade Única (Single Responsibility Principle - SRP)
+## O Princípio da Responsabilidade Única (Single Responsibility Principle - SRP)
 
 O Princípio da Responsabilidade Única (Single Responsibility Principle - SRP), diz que uma classe deve ter apenas uma única responsabilidade. 
 Isso significa que uma classe deve ter apenas uma razão para mudar e deve ser responsável por apenas uma parte do comportamento do sistema. 
