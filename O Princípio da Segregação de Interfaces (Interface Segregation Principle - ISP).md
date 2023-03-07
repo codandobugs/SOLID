@@ -1,7 +1,12 @@
 ## O Princípio da Segregação de Interfaces (Interface Segregation Principle - ISP)
 
-O Princípio da Segregação de Interfaces (Interface Segregation Principle - ISP) sugere que os clientes não devem ser forçados a depender de interfaces que não utilizam. Isso significa que você deve evitar interfaces grandes e genéricas, e em vez disso, criar interfaces mais específicas para cada caso de uso. Isso ajuda a reduzir o acoplamento entre classes e torna o código mais flexível e fácil de modificar. Sendo assim, as interfaces devem ser pequenas e coesas, com apenas os métodos necessários para um determinado cliente. Um exemplo seria ter uma interface para uma classe de relatório com apenas os métodos necessários para gerar relatórios.
-``
+O Princípio da Segregação de Interfaces (Interface Segregation Principle - ISP) sugere que os clientes não devem ser forçados a depender de interfaces que não utilizam. 
+Isso significa que você deve evitar interfaces grandes e genéricas, e em vez disso, criar interfaces mais específicas para cada caso de uso. 
+Isso ajuda a reduzir o acoplamento entre classes e torna o código mais flexível e fácil de modificar. 
+Sendo assim, as interfaces devem ser pequenas e coesas, com apenas os métodos necessários para um determinado cliente. 
+Um exemplo seria ter uma interface para uma classe de relatório com apenas os métodos necessários para gerar relatórios.
+
+```
 /**
  * <@codandobugs>
  * O Princípio da Segregação de Interfaces (Interface Segregation Principle - ISP)
@@ -38,4 +43,4 @@ class PDFReportGenerator implements ReportGeneratorInterface
   // código para salvar o relatório em PDF no arquivo especificado
   }
 }
-``
+```
